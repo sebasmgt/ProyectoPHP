@@ -1,0 +1,20 @@
+#configuracion de Apache
+
+RewriteEngine On
+
+
+RewriteRule ^NuevaActividad$ controllers/addActividad.php
+RewriteRule ^ModificarActividad$ controllers/updActividad.php
+RewriteRule ^ModificarActividad-([0-9]+)$ controllers/updActividad.php?ID=$1
+RewriteRule ^EliminarActividad$ controllers/delActividad.php
+RewriteRule ^EliminarActividad-([0-9]+)$ controllers/delActividad.php?ID=$1
+RewriteRule ^Calendario$ controllers/getCalendario.php
+RewriteRule ^Facturacion$ controllers/addFactura.php
+RewriteRule ^Facturacion-([0-9]+)-([0-9]+)-([0-9]+)$ controllers/addFactura.php?Res=$1&Anio=$2&Mes=$3
+RewriteRule ^TraerFacturas$ controllers/getFacturas.php
+
+
+#RewriteRule ^probando$ controllers/Prueba.php
+#RewriteRule ^lista-([0-9]+)$ controller/Prueba=$1
+
+

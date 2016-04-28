@@ -1,0 +1,58 @@
+#calendar {
+	font-family:Arial;
+	font-size:12px;
+}
+#calendar caption {
+	text-align:left;
+	padding:5px 10px;
+	background-color:#003366;
+	color:#fff;
+	font-weight:bold;
+}
+#calendar th {
+	background-color:#006699;
+	color:#fff;
+	width:40px;
+	height: 20px;
+}
+#calendar td {
+	text-align:left;
+	vertical-align: text-top;
+	padding:20px 20px;
+	width:150px;
+	height: 120px;
+	background-color:silver;
+}
+#calendar .hoy {
+	background-color:red;
+}
+
+
+#factura {
+	font-family:Arial;
+	font-size:12px;
+}
+#factura caption {
+	text-align:left;
+	padding:5px 10px;
+	background-color:#003366;
+	color:#fff;
+	font-weight:bold;
+}
+#factura th {
+	background-color:#006699;
+	color:#fff;
+	width:40px;
+	height: 20px;
+}
+#factura td {
+	text-align:left;
+	vertical-align: text-top;
+	padding:20px 20px;
+	width:250px;
+	height: 1px;
+	background-color:silver;
+}
+#factura .hoy {
+	background-color:red;
+}
